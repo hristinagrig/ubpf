@@ -20,7 +20,7 @@
 #include "ebpf.h"
 #include <sys/types.h>
 #include <ubpf_config.h>
-
+typedef unsigned int uint;
 #define _GNU_SOURCE
 #include <stdio.h>
 #include <string.h>
